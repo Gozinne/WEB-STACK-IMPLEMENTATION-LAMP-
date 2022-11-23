@@ -18,11 +18,20 @@ The notion refers to a server environment that includes a Linux operating system
 ### Requirements
 
 The following items are required to begin and complete this project.
+
 An account and are logged into the AWS console.
+
 Open an AWS EC2 instance.
+
 Run the EC2 instance on Ubuntu and set the network security to: SSH,Port:22; HTTP,Port:80.
+
 Connect VScode or MobaXterm to the EC2 instance and launch a new terminal.
 
 ### Installing Apache and Updating the Firewall
 
-<src="https://httpd.apache.org/"/> 
+[Apache HTTP Server](https://httpd.apache.org/) is the most widely used web server software. 
+The Apache Software Foundation develops and maintains Apache, which is free open-source software that is fast, dependable, and secure. 
+It may be significantly customised using extensions and modules to meet the needs of a wide range of circumstances. 
+Apache saves virtual host configuration files. All accessible configuration files may be found in the [directory](/etc/apache2/sites-available/).
+
+Install Apache using Ubuntu’s package manager ‘apt’:

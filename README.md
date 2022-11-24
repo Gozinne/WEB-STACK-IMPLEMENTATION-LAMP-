@@ -1,4 +1,4 @@
-# WEB STACK IMPLEMENTATION (LAMP STACK) IN AWS
+# WEB STACK IMPLEMENTATION (LAMP STACK)
 </a>
 
 ![Contributors](https://img.shields.io/github/contributors/Gozinne/Project-1?style=plastic)
@@ -38,6 +38,13 @@ It may be significantly customised using extensions and modules to meet the need
 Apache saves virtual host configuration files. All accessible configuration files may be found in the [directory](/etc/apache2/sites-available/).
 
 Install Apache using Ubuntu’s package manager ‘apt’:
+
+***
+<img
+  src="https://user-images.githubusercontent.com/80969889/203669331-a404ec1a-2089-4deb-b003-9cdd4b82a88b.mp4"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 
 

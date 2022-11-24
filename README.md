@@ -301,7 +301,7 @@ Save and close the file. When you refresh the web page in your browser, you shou
 sudo rm /var/www/projectlamp/index.php
 ```
 
-You may always redo this page.
+You can always redo the page.
 
     
 ***

@@ -266,14 +266,18 @@ sudo vim /etc/apache2/mods-enabled/dir.conf
 This will be seen in the text editor:
 ***
 <IfModule mod_dir.c>
-***
+
+  
 #Change this: DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
-***
+
+  
 To this: DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
-***
+
+  
 </IfModule>
 ***
-Reload Apache after saving and closing the file in order for the changes to take effect:
+
+#Reload Apache after saving and closing the file in order for the changes to take effect:
 
 
 ```

@@ -156,14 +156,27 @@ php -v
 LAMP stack is now fully installed and working.
 
 ***
-<img
-  src="https://user-images.githubusercontent.com/80969889/203685027-04aa1e56-f872-43ea-a381-6140ec5e68eb.png" "https://user-images.githubusercontent.com/80969889/203685102-51ccc23d-aa17-4459-87fc-98d44ac36b6b.png" "https://user-images.githubusercontent.com/80969889/203685163-1b66cc33-b1a4-4303-ae90-515ad69ff598.png"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 500px">
-  ***
-
-
+<div class="row" style="display: flex">
+  <div class="column"  style= "float: left;
+  width: 33.33%;
+  padding: 5px; flex: 33.33%;
+  padding: 5px">
+    <img src="https://user-images.githubusercontent.com/80969889/203685027-04aa1e56-f872-43ea-a381-6140ec5e68eb.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 500px">
+  </div>
+  <div class="column" style= "float: left;
+  width: 33.33%;
+  padding: 5px; flex: 33.33%;
+  padding: 5px">
+    <img src="https://user-images.githubusercontent.com/80969889/203685102-51ccc23d-aa17-4459-87fc-98d44ac36b6b.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 500px">
+  </div>
+  <div class="column"  style= "float: left;
+  width: 33.33%;
+  padding: 5px; flex: 33.33%;
+  padding: 5px">
+    <img src="https://user-images.githubusercontent.com/80969889/203685163-1b66cc33-b1a4-4303-ae90-515ad69ff598.png" alt="Alt text" style="display: inline-block; margin: 0 auto; max-width: 500px">
+  </div>
+</div>
+***
 
 
 

@@ -39,12 +39,31 @@ Apache saves virtual host configuration files. All accessible configuration file
 
 Install Apache using Ubuntu’s package manager ‘apt’:
 
+#Update a list of packages in package manager
+```
+sudo apt update
+```
+#Run apache2 package installation
+```
+sudo apt install apache2
+```
+#To verify that apache2 is running as a Service in our OS, use following command
+```
+sudo systemctl status apache2
+```
+#Then access it locally in your Ubuntu shell:
+```
+curl http://<localhost>:80
+```
+If everything is green and operating, you have done everything correctly - you have just launched your own Cloud Web Server!
+
 ***
 <img
   src="https://user-images.githubusercontent.com/80969889/203670715-b84728f2-2f12-4b58-9937-06b2ccd2f64f.gif"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
-
+  
+***
 
 

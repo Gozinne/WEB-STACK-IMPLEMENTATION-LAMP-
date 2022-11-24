@@ -18,7 +18,7 @@ The notion refers to a server environment that includes a Linux operating system
 ### Requirements
 
 The following items are required to begin and complete this project.
-* An account and are logged into the AWS console.
+* An account logged into the AWS console.
 * Open an AWS EC2 instance.
 * Run the EC2 instance on Ubuntu and set the network security to: SSH,Port:22; HTTP,Port:80.
 * Connect VScode or MobaXterm to the EC2 instance and launch a new terminal.

@@ -295,7 +295,7 @@ You may always redo this page.
     
 ***
 <img
-  src="https://user-images.githubusercontent.com/80969889/203694585-29e21143-11a0-4f96-9e3b-a5b160efc66f.png"
+  src="https://user-images.githubusercontent.com/80969889/203695660-4a5868d8-afcd-450a-94e0-ddedbc0683ed.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">

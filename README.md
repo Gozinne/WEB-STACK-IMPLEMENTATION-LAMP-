@@ -169,11 +169,11 @@ LAMP stack is now fully installed and working.
   style="display: inline-block; margin: 0 auto; max-width: 300px"> 
 ***
  <img
-  src=https://user-images.githubusercontent.com/80969889/203685102-51ccc23d-aa17-4459-87fc-98d44ac36b6b.png"
+  src="https://user-images.githubusercontent.com/80969889/203688419-dce92512-5f4a-49f4-be7a-dc9050ed8304.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
-  ***
+ ***
     
 
 

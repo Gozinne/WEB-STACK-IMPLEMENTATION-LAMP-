@@ -261,51 +261,57 @@ To modify this behaviour, update the /etc/apache2/mods-enabled/dir.conf file and
 ```
 sudo vim /etc/apache2/mods-enabled/dir.conf
 ```
+
+
 This will be seen in the text editor:
 ***
 <IfModule mod_dir.c>
 ***
-#Change this: "DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm"
+#Change this: DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
 ***
-To this: "DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm"
+To this: DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 ***
 </IfModule>
 ***
 Reload Apache after saving and closing the file in order for the changes to take effect:
+
+
 ```
 sudo systemctl reload apache2
 ```
+
 Finally, we will create a PHP script to test that PHP is correctly installed and configured on your server.
 ***
 #Create a new file named index.php inside your custom web root folder:
+
 ```
 vim /var/www/projectlamp/index.php
 ```
+
 #Type inside the file:
+
 ```
 <?php
 
 phpinfo();
 ```
+
 Save and close the file. When you refresh the web page in your browser, you should see something like the picture below, demonstrating that the PHP installation is working successfully. Because the PHP file contains crucial information about the PHP environment as well as the Ubuntu server, it is advisable to remove it afterwards. This is possible using rm:
+
 ```
 sudo rm /var/www/projectlamp/index.php
 ```
+
 You may always redo this page.
+
     
 ***
 <img
-  src="https://user-images.githubusercontent.com/80969889/203695660-4a5868d8-afcd-450a-94e0-ddedbc0683ed.png"
+  src="https://user-images.githubusercontent.com/80969889/203696395-4358a215-fd9a-4aaf-a36d-bef420eacf3e.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
- ***
  
-
-
-
-
-
 
 
 

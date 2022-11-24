@@ -15,17 +15,20 @@ The LAMP stack refers to a collection of technologies that may be used to provid
 LAMP (Linux, Apache, MySQL, and PHP) is an abbreviation. 
 The notion refers to a server environment that includes a Linux operating system (Ubuntu), an Apache web server, a MySQL (or MariaDB) database server, and the PHP programming language (or Python).
 
-### Requirements
+#### Requirements
 
-The following items are required to begin and complete this project.
+* The following items are required to begin and complete this project.
+* An account and are logged into the AWS console.
+* Open an AWS EC2 instance.
+* Run the EC2 instance on Ubuntu and set the network security to: SSH,Port:22; HTTP,Port:80.
+* Connect VScode or MobaXterm to the EC2 instance and launch a new terminal.
 
-An account and are logged into the AWS console.
-
-Open an AWS EC2 instance.
-
-Run the EC2 instance on Ubuntu and set the network security to: SSH,Port:22; HTTP,Port:80.
-
-Connect VScode or MobaXterm to the EC2 instance and launch a new terminal.
+***
+<img
+  src="https://user-images.githubusercontent.com/80969889/203666926-8e0ea8f1-174d-495e-9d6f-97559d85ec52.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 ### Installing Apache and Updating the Firewall
 
@@ -35,3 +38,6 @@ It may be significantly customised using extensions and modules to meet the need
 Apache saves virtual host configuration files. All accessible configuration files may be found in the [directory](/etc/apache2/sites-available/).
 
 Install Apache using Ubuntu’s package manager ‘apt’:
+
+
+

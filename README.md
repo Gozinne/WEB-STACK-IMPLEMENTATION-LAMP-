@@ -41,7 +41,7 @@ Install Apache using Ubuntu’s package manager ‘apt’:
 
 ***
 <img
-  src="https://user-images.githubusercontent.com/80969889/203669331-a404ec1a-2089-4deb-b003-9cdd4b82a88b.mp4"
+  src="https://user-images.githubusercontent.com/80969889/203670715-b84728f2-2f12-4b58-9937-06b2ccd2f64f.gif"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">

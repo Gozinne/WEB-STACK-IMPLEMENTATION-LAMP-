@@ -17,7 +17,7 @@ The notion refers to a server environment that includes a Linux operating system
 
 #### Requirements
 
-* The following items are required to begin and complete this project.
+The following items are required to begin and complete this project.
 * An account and are logged into the AWS console.
 * Open an AWS EC2 instance.
 * Run the EC2 instance on Ubuntu and set the network security to: SSH,Port:22; HTTP,Port:80.
@@ -64,6 +64,55 @@ If everything is green and operating, you have done everything correctly - you h
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
   
+### Installing MySQL
+
+[MySQL](https://www.mysql.com/) is an open-source database management system that is typically included in the LAMP stack. 
+It follows the relational paradigm and manages its data via Structured Query Language (SQL).
+By installing it, users will have a functional relational database on which to create a website or application.
+
+#Again, use ‘apt’ to acquire and install this software:
+```
+$ sudo apt install mysql-server
+```
+#When asked, type Y and then ENTER to confirm installation.
+#When the installation is complete, open the MySQL console by typing:
+```
+$ sudo mysql
+```
+This command will connect to the MySQL server as the administrator database user root, as implied by the use of sudo. You should get something like this:
+
+***
+<img
+  src="https://user-images.githubusercontent.com/80969889/203673740-55a08f71-44a6-4429-a734-d45577e4f0d0.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  ***
+
+#It is highly advised that you execute the security script that comes with MySQL. This script will prevent access to your database system by eliminating various dangerous default settings. Before running the script, you will provide a password for the root user:
+```
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY <'PassWord.1'>;
+```
+Exit **mysql>** by typing "exit".
+#Start the interactive script by running:
+```
+$ sudo mysql_secure_installation
+```
+This prompts you to configure the **VALIDATE PASSWORD PLUGIN**.
+However, it is safe to leave validation turned off.
+***
+Answer Y for yes, or any other letter to proceed without enabling.
+After the above you will recieve another prompt;Yes, press y|Y; for No, press any alternative key:
+***
+If you answer "yes," you will be prompted to choose a degree of password validation. 
+Remember that if you pick 2 for the toughest level, you will receive problems when attempting to establish any password that does not include digits, upper and lowercase letters, and special characters, or is based on popular dictionary terms, such as PassWord.1.
+
+***
+<img
+  src="https://user-images.githubusercontent.com/80969889/203675681-ebb5ea93-9c77-4b6a-a76f-4fa552771537.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 ***
 
 
